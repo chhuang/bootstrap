@@ -1,0 +1,23 @@
+// Custom override
+
+@import "../functions";
+@import "../variables";
+
+$body-bg: $gray-100;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 960px + 64px,
+  lg: 1152px + 64px,
+  xl: 1344px + 64px
+);
+
+$container-max-widths: (
+  sm: 768px,
+  md: 960px,
+  lg: 1152px,
+  xl: 1344px
+);
+
+$grid-gutter-width: 32px;
